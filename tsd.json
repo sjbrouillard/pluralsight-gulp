@@ -4,5 +4,18 @@
   "ref": "master",
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
-  "installed": {}
+  "installed": {
+    "gulp/gulp.d.ts": {
+      "commit": "a5cafa2e96930083a84f548f099544c16f2483f3"
+    },
+    "node/node.d.ts": {
+      "commit": "a5cafa2e96930083a84f548f099544c16f2483f3"
+    },
+    "orchestrator/orchestrator.d.ts": {
+      "commit": "a5cafa2e96930083a84f548f099544c16f2483f3"
+    },
+    "q/Q.d.ts": {
+      "commit": "a5cafa2e96930083a84f548f099544c16f2483f3"
+    }
+  }
 }
