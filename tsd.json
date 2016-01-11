@@ -9,7 +9,7 @@
       "commit": "a5cafa2e96930083a84f548f099544c16f2483f3"
     },
     "node/node.d.ts": {
-      "commit": "a5cafa2e96930083a84f548f099544c16f2483f3"
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
     },
     "orchestrator/orchestrator.d.ts": {
       "commit": "a5cafa2e96930083a84f548f099544c16f2483f3"
@@ -21,6 +21,18 @@
       "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
     },
     "angularjs/angular.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
+    },
+    "chalk/chalk.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
+    },
+    "through2/through2.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
+    },
+    "gulp-util/gulp-util.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
+    },
+    "vinyl/vinyl.d.ts": {
       "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
     }
   }
