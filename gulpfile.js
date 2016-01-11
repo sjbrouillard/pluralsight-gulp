@@ -3,6 +3,7 @@ var jshint = require('gulp-jshint');
 var jscs = require('gulp-jscs');
 var jscsStylish = require('gulp-jscs-stylish');
 var util = require('gulp-util');
+var gulpprint = require('gulp-print');
 
 gulp.task('vet', function() {
     log('Analyzing source code with JSHint and JSCS');
@@ -10,9 +11,11 @@ gulp.task('vet', function() {
         './src/**/*.js',
         './*.js'
     ])
+    .pipe(gulpprint())
     .pipe(jscs())
     .pipe(jshint())
     .pipe(jscsStylish.combineWithHintResults())
+    //If you want CI to fail the build, just use .pipe(jshint.reporter('fail))
     .pipe(jshint.reporter('jshint-stylish', {verbose: true}));
 });
 
