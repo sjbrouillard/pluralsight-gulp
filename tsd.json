@@ -34,6 +34,15 @@
     },
     "vinyl/vinyl.d.ts": {
       "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
+    },
+    "yargs/yargs.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
+    },
+    "gulp-if/gulp-if.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
+    },
+    "gulp-load-plugins/gulp-load-plugins.d.ts": {
+      "commit": "627b6c158b73494c803f36fc2fe00ad75faa8fde"
     }
   }
 }

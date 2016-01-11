@@ -9,3 +9,6 @@
 /// <reference path="gulp-util/gulp-util.d.ts" />
 /// <reference path="through2/through2.d.ts" />
 /// <reference path="vinyl/vinyl.d.ts" />
+/// <reference path="yargs/yargs.d.ts" />
+/// <reference path="gulp-if/gulp-if.d.ts" />
+/// <reference path="gulp-load-plugins/gulp-load-plugins.d.ts" />
