@@ -46,6 +46,18 @@
     },
     "gulp-less/gulp-less.d.ts": {
       "commit": "984a41af67d76b5134e0d4991a30f813dfb8561f"
+    },
+    "del/del.d.ts": {
+      "commit": "984a41af67d76b5134e0d4991a30f813dfb8561f"
+    },
+    "glob/glob.d.ts": {
+      "commit": "984a41af67d76b5134e0d4991a30f813dfb8561f"
+    },
+    "minimatch/minimatch.d.ts": {
+      "commit": "984a41af67d76b5134e0d4991a30f813dfb8561f"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "984a41af67d76b5134e0d4991a30f813dfb8561f"
     }
   }
 }

@@ -13,3 +13,7 @@
 /// <reference path="gulp-if/gulp-if.d.ts" />
 /// <reference path="gulp-load-plugins/gulp-load-plugins.d.ts" />
 /// <reference path="gulp-less/gulp-less.d.ts" />
+/// <reference path="del/del.d.ts" />
+/// <reference path="es6-promise/es6-promise.d.ts" />
+/// <reference path="glob/glob.d.ts" />
+/// <reference path="minimatch/minimatch.d.ts" />
