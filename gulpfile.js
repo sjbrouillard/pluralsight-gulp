@@ -17,6 +17,16 @@ gulp.task('vet', function() {
         .pipe($.jshint.reporter('jshint-stylish', {verbose: true}));
 });
 
+gulp.task('styles', function() {
+    log('Compiling LESS files --> CSS');
+
+    return gulp
+        .src(config.less)  //TODO add the config
+        .pipe($.less())
+        .pipe($.autoprefixer({browsers: ['last 2 versions', '> 5%']}))
+        .pipe(gulp.dest(config.temp));
+});
+
 /////////////////
 
 function log(msg) {

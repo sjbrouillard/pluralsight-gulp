@@ -1,10 +1,20 @@
 module.exports = function() {
+    var client = './src/client/';
+
     var config = {
-        // All the js files that I want to vet in the project.
+        temp: './.tmp',
+
+        ///////////////////////////////////////
+        ///                                 ///
+        ///        Input file paths.        ///
+        ///                                 ///
+        ///////////////////////////////////////
         alljsfiles: [
             './src/**/*.js',
             './*.js'
-        ]
+        ],
+
+        less: client + 'styles/styles.less'
     };
     return config;
 };
