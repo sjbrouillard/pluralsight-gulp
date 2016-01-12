@@ -33,7 +33,8 @@ gulp.task('styles', function() {
     log('Compiling LESS files --> CSS');
 
     return gulp
-        .src(config.less)  //TODO add the config
+        .src(config.less)
+        .pipe($.plumber())
         .pipe($.less())
         .pipe($.autoprefixer({browsers: ['last 2 versions', '> 5%']}))
         .pipe(gulp.dest(config.temp));

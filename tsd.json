@@ -61,6 +61,9 @@
     },
     "run-sequence/run-sequence.d.ts": {
       "commit": "984a41af67d76b5134e0d4991a30f813dfb8561f"
+    },
+    "gulp-plumber/gulp-plumber.d.ts": {
+      "commit": "984a41af67d76b5134e0d4991a30f813dfb8561f"
     }
   }
 }
