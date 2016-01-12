@@ -17,3 +17,4 @@
 /// <reference path="es6-promise/es6-promise.d.ts" />
 /// <reference path="glob/glob.d.ts" />
 /// <reference path="minimatch/minimatch.d.ts" />
+/// <reference path="run-sequence/run-sequence.d.ts" />
