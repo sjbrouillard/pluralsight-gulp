@@ -1,6 +1,9 @@
+//Main Gulp package
 var gulp = require('gulp');
+
 var args = require('yargs').argv;
 var config = require('./gulp.config')();
+var del = require('del');
 
 var $ = require('gulp-load-plugins') ({lazy: true});
 
@@ -25,6 +28,11 @@ gulp.task('styles', function() {
         .pipe($.less())
         .pipe($.autoprefixer({browsers: ['last 2 versions', '> 5%']}))
         .pipe(gulp.dest(config.temp));
+});
+
+gulp.task('clean-styles', function() {
+    var files = config.temp + '**/*.css';
+    del(files);
 });
 
 /////////////////
